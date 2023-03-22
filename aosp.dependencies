@@ -1,21 +1,21 @@
 [
   {
-    "remote":      "Xtended-Devices",
+    "remote":      "github",
     "repository":  "device_xiaomi_sm6250-common",
     "target_path": "device/xiaomi/sm6250-common"
   },
   {
-    "remote":      "Xtended-Devices",
+    "remote":      "github",
     "repository":  "vendor_xiaomi_miatoll",
     "target_path": "vendor/xiaomi/miatoll"
   },
   {
-    "remote":      "Xtended-Devices",
+    "remote":      "github",
     "repository":  "vendor_xiaomi_sm6250-common",
     "target_path": "vendor/xiaomi/sm6250-common"
   },
   {
-    "remote":      "Xtended-Devices",
+    "remote":      "github",
     "repository":  "kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/sm6250"
   }
