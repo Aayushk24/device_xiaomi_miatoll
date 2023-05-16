@@ -3,5 +3,4 @@ git clone https://github.com/Xtended-Devices/vendor_xiaomi_miatoll -b xt vendor/
 git clone https://github.com/Xtended-Devices/kernel_xiaomi_sm6250 -b xt kernel/xiaomi/sm6250
 git clone https://github.com/Xtended-Devices/vendor_xiaomi_sm6250-common -b xt vendor/xiaomi/sm6250-common
 git clone https://github.com/kdrag0n/proton-clang --depth=1 prebuilts/clang/host/linux-x86/clang-proton
-rm -rf system/libhidl && git clone https://github.com/LineageOS/android_system_libhidl -b lineage-20.0 system/libhidl
 git clone https://github.com/rayavanindra/android_hardware_xiaomi -b xt hardware/xiaomi
