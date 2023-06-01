@@ -16,22 +16,19 @@
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
 # Inherit some common xtended stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := aosp_miatoll
+PRODUCT_NAME := corvus_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := SM6250
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Xtended Stuffs
-PROCESSOR_MODEL := atoll
-WITH_GAPPS := true
-TARGET_USES_BLUR := true
+USE_GAPPS := false
 
 # Inherit some common device props
 TARGET_SUPPORTS_QUICK_TAP := true
