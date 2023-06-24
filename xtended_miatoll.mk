@@ -30,7 +30,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
-TARGET_SHIPS_GALLERY := false
 
 # Xtended Stuffs
 XTENDED_BUILD_TYPE := OFFICIAL
